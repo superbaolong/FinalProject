@@ -17,7 +17,6 @@ bias=4
 n=OneNeural(weight,bias)
 x=np.array([2,3])
 print(n.f(x))
-
 #一个神经网络
 
 class OneNeuralNetwork:
