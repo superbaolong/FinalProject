@@ -8,7 +8,7 @@ class OneNeural:
     def __init__(self,weight,bias):
         self.weight = weight
         self.bias = bias
-
+# 1
     def f(self,x):
         out=np.dot(self.weight,x)+self.bias
         return sigmoid(out)

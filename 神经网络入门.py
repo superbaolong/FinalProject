@@ -3,6 +3,7 @@ import numpy as np
 def sigmoid(x):
     # 我们的激活函数: f(x) = 1 / (1 + e^(-x))
     return 1 / (1 + np.exp(-x))
+# 不错
 
 #Neuron神经元，给一个输入x（1×2的矩阵），得到一个输出y（一个数）
 class Neuron:  # 神经元
